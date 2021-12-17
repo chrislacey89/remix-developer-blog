@@ -8,7 +8,6 @@ export const loader = () => {
 
 export default function Posts() {
   const posts = useLoaderData<Post[]>();
-  console.log("🚀 ~ file: index.tsx ~ line 11 ~ Posts ~ posts", posts);
   return (
     <div>
       <h1>Posts</h1>
